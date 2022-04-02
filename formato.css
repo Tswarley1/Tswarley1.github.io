@@ -1,7 +1,7 @@
 .img-div-center 
     {
     height: 800px;
-    position: relative;
+    position:static;
     }
 .img-centro-vert-hor
     {
