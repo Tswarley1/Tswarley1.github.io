@@ -7,7 +7,7 @@
     <title>Tumbes</title>
     <style>
         body{
-            font-family: verdana;
+            font-family: "verdana";
             background-color: #ebf1f2;
             color: #18232b;
             text-align: justify;
@@ -17,7 +17,7 @@
             background-color: #18232b;
             border: 1px solid #18232b;
             color: #ebf1f2;
-            font-family: Verdana;
+            font-family: "Verdana";
             font-size: 18px;
             text-align: center;
             height: auto;
@@ -28,7 +28,7 @@
             color: #18232b;
             text-align: center;
             font-size: 100%;
-            font-family: Verdana;
+            font-family: "Verdana";
             
         }
         #id{
@@ -46,21 +46,35 @@
             height: auto;
             color:#ebf1f2;
             font-size: 20px;
-            font-family:verdana; 
+            font-family:"verdana"; 
             text-align: justify;     
         }
         #caja1{
-            background-color: #ebf1f2;
+            background-color: #dda50c;
             border: 2px solid #ebf1f2;
             padding: 5px;
             margin: 10px 40px;
             width: auto;
-            height: auto;
+            height: 800px;
             color:#18232b;
             font-size: 20px;
-            font-family:verdana; 
+            font-family:"verdana"; 
             text-align: justify;     
         }
+        table{
+            
+            float: left;
+            margin:20px 100px 100px;
+            padding: 1px;
+            height: 10px;
+            width: auto;
+            color: #18232b;
+            font-size: 15px;
+            font-family: "verdana";
+            text-align: center;
+
+        }
+
     </style>
 </head>
 <body>
@@ -110,31 +124,67 @@
             con el mayor número de distritos es Tumbes (6 distritos), seguido Contraalmirante
             Villar (5 distritos) y Zarumilla (4 distritos).
         </p>
-        <table>
+        <table style="border-style: dashed;">
+            <colgroup>
+                <col style="background-color: #6c868e;" span="3">
+            </colgroup>
             <tr>
                 <th>Provincias</th>
                 <th>N° de distritos</th>
                 <th>Distritos</th>
             </tr>
             <tr>
+                <td rowspan="6">Tumbes</td>
+                <td rowspan="6">6</td>
                 <td>Tumbes</td>
             </tr>
             <tr>
-
+                <td>Corrales</td>
+            </tr>    
+            <tr>
+                <td>La cruz</td>
             </tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
+            <tr>
+                <td>Pampas de hospital</td>
+            </tr>
+            <tr>
+                <td>San Jacinto</td>
+            </tr>
+            <tr>
+                <td>San Juan de la virgen</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Zarumilla</td>
+                <td rowspan="4">4</td>
+                <td>Zarumilla</td>
+            </tr>
+            <tr>
+                <td>Aguas verdes</td>
+            </tr>
+            <tr>
+                <td>Papayal</td>
+            </tr>
+            <tr>
+                <td>Matapalo</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Contraalmirante Villar</td>
+                <td rowspan="3">3</td>
+                <td>Zorritos</td>
+            </tr>
+            <tr>
+                <td>Casitas</td>
+            </tr>
+            <tr>
+                <td>Canoas de punta sal</td>
+            </tr>
             <tr></tr>
             <tr></tr>
             <tr></tr>
             <tr></tr>
             <tr></tr>
         </table>
+        <img id="id" src="/Imagenes/tl.png" alt="geo" style="margin: 10px 80px;">
     </section>
 
     
