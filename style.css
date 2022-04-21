@@ -1,0 +1,132 @@
+
+body{
+    font-family: "verdana";
+    background-color: #ebf1f2;
+    color: #18232b;
+    text-align: justify;
+}
+header
+{
+    background-color: #18232b;
+    border: 1px solid #18232b;
+    color: #ebf1f2;
+    font-family: "Verdana";
+    font-size: 18px;
+    text-align: center;
+    height: auto;
+    width: auto;
+
+}
+nav{
+    color: #18232b;
+    text-align: center;
+    font-size: 100%;
+    font-family: "Verdana";
+    
+}
+#id{
+    background-color: #ebf1f2;
+    border:#ebf1f2;
+    float: right;
+    margin: 5px; 
+}
+#id1{
+    float: right;
+    margin: 20px 150px 0px 0px; 
+    height: 320px;
+    width: auto;
+
+}
+#caja{
+    background-color: #5698af;
+    border: 2px solid #5698af;
+    padding: 5px;
+    margin: 10px 70px;
+    width: auto;
+    height: auto;
+    color:#18232b;
+    font-size: 20px;
+    font-family:"verdana"; 
+    text-align: justify;     
+}
+#caja1{
+    background-color: #ebf1f2;
+    border: 2px solid #ebf1f2;
+    padding: 5px;
+    margin: 10px 70px;
+    width: auto;
+    height: auto;
+    color:#18232b;
+    font-size: 20px;
+    font-family:"verdana"; 
+    text-align: justify;     
+}
+table{
+    border: 0;
+    border-color: #18232b;
+    float: left;
+    margin:10px 0px 0px 130px;
+    padding: 1px 1px 0px 1px;
+    height: auto;
+    width: auto;
+    color: #18232b;
+    font-size: 15px;
+    font-family: "verdana";
+    text-align: center;
+}
+#caja2 {
+    width: auto;
+    height: auto;
+    border: solid 1px #ebf1f2;
+    background-color: #ebf1f2;
+    padding: 1px;
+    font-size: 15px;
+    font-family: "verdana";
+    text-align: center;
+}
+#caja3 {
+    width: auto;
+    height: auto;
+    border: solid 1px #ebf1f2;
+    background-color: #ebf1f2;
+    padding: 0px;
+    font-size: 15px;
+    font-family: "verdana";
+    text-align: center;
+    
+}
+#caja4 {
+    width: 195px;
+    height: auto;
+    border: solid 1px #ebf1f2;
+    background-color: #ebf1f2;
+    padding: 0px;
+    font-size: 15px;
+    font-family: "verdana";
+    text-align: center;
+    margin:10px 580px 10px;
+}
+#ul{
+    color:#18232b;
+    font-size: 16px;
+    font-family:"verdana"; 
+    text-align: justify;
+    margin: 5px 20px 5px 10px;
+}
+#caja5 {
+    width: auto;
+    height: auto;
+    border: solid 1px #5698af;
+    background-color: #5698af;
+    padding: 1px;
+    font-size: 15px;
+    font-family: "verdana";
+    text-align: center;
+}
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+
+}
