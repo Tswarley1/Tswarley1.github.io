@@ -1,0 +1,207 @@
+* {
+    margin:0px;
+    padding:0px;
+    /* Se cambia el modelo de la pagina*/
+}
+html{
+    background-image: url("https://elviajerofeliz.com/wp-content/uploads/2019/10/10-Ciudades-de-Alemania-Imprescindibles.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.prin{
+    overflow: hidden;
+    height:auto;
+    width: 100%;
+    color: black;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+    margin: auto;
+    padding: auto;
+    }
+.head{
+    width: 40%;
+    margin:  15px auto;
+    padding:5px;
+    font-size: 50px;
+}    
+.head img{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width:80px;
+    float: left;
+    margin: 0px 15px;
+}
+.head h1{
+    padding: auto;
+    margin: 10px auto;
+    background: linear-gradient(90deg, rgba(0,0,1,1) 42%, rgba(255,12,12,1) 71%, rgba(242,242,26,1) 73%);
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;  
+
+}
+.header {
+    margin:0 auto;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: black;;
+    }
+
+.nav > li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    }
+
+.nav li a {
+        background-color:#000;
+        color:white;
+        text-decoration:none;
+        padding:20px 30px;
+        display:block;
+    }
+    
+.nav li a:hover {
+        background-color:#5b5c5c;
+    }
+
+.nav li ul {
+        background-color:black;
+        color: white;;
+        text-decoration:none;
+        padding:auto 5px;
+        display:none;
+        position:absolute;
+        min-width:140px;
+    }
+
+.nav li:hover > ul {
+        display:block;
+    }
+    section{
+        background: aliceblue;
+        overflow: hidden;
+        width: 80%;
+        margin: auto;
+    }
+    .general{
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+    }
+    .general h2{
+        margin: auto;
+        padding: auto;
+        text-align: left;
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: red;
+        text-shadow: -1px 0 #c72929, 0 1px #6b0707, 1px 0 #c72929, 0 -1px #c72929
+    }
+    .general img{
+        width: 30%;
+        height: auto;
+        float: right;
+        padding: auto;
+        margin: auto 5px 0px;
+        border: 2px solid black;
+    }
+    .general p{
+        margin: 5px auto;            
+    }
+    .imagenes img{
+        width: 50%;
+        display: block;
+        margin:5px auto;
+    }
+    .general1{
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+    }
+    .general1 h2{
+        margin: auto;
+        padding: auto;
+        text-align: left;
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        color: red;
+        text-shadow: -1px 0 #c72929, 0 1px #6b0707, 1px 0 #c72929, 0 -1px #c72929
+    }
+    .general1 p{
+        margin: 5px auto;            
+    }
+    .general1 img{
+        border: 2px solid black;
+        width: 40%;
+        display: block;
+        padding: 10px auto;
+        margin:10px auto;
+    }
+    .general1 img:hover{
+        opacity: .5;
+        transition: 05s;
+    }
+    .imagenes img:hover{
+        opacity: .5;
+        transition: 05s;
+    }
+
+    .area{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .imagenes1{
+        padding:20px;
+    }
+    .area img:hover{
+        opacity: .5;
+        transition: 05s;
+    }
+    footer{
+        overflow: hidden;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background:black;
+        margin: auto;
+        padding: auto;
+        text-align: center;
+    }
+    .footer{
+        width: 30%;
+        margin: auto;
+        padding: 10px;
+    }
+    .footer img{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        display: block;
+        width: 25px;
+        float: left;
+    }
