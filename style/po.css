@@ -4,7 +4,7 @@
     /* Se cambia el modelo de la pagina*/
 }
 html{
-    background-image: url("https://elviajerofeliz.com/wp-content/uploads/2019/10/10-Ciudades-de-Alemania-Imprescindibles.jpg");
+    background-image: url("https://lonelyplanetes.cdnstatics2.com/sites/default/files/styles/max_1300x1300/public/fotos/Portugal_Oporto_GettyRF_592691071_wayfarerlife%20photography_Getty%20Images.jpg?itok=ncacjQAX");
     background-repeat: no-repeat;
     background-position: center center;
     height: auto;
@@ -36,21 +36,21 @@ html{
     align-items: center;
     justify-content: center;
     display: block;
-    width:80px;
+    width:60px;
     float: left;
     margin: 0px 15px;
 }
 .head h1{
     padding: auto;
     margin: 10px auto;
-    background: linear-gradient(90deg, rgba(0,0,1,1) 42%, rgba(255,12,12,1) 71%, rgba(242,242,26,1) 73%);
+    background: linear-gradient(0deg, rgba(4,106,56,1) 47%, rgba(218,41,28,1) 58%);
     -webkit-background-clip: text;  
     -webkit-text-fill-color: transparent;  
 
 }
 .header {
     margin:0 auto;
-    font-size: 20px;
+    font-size: 22px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: center;
@@ -62,7 +62,7 @@ ul {
     margin: 0;
     padding: 0px;
     overflow: hidden;
-    background-color: black;;
+    background-color: #046a38;
     }
 
 .nav > li {
@@ -72,7 +72,7 @@ ul {
     }
 
 .nav li a {
-        background-color:#000;
+        background-color:#046a38;
         color:white;
         text-decoration:none;
         padding:20px 30px;
@@ -80,7 +80,7 @@ ul {
     }
     
 .nav li a:hover {
-        background-color:#5b5c5c;
+        background-color:#900507;
     }
 
 .nav li ul {
@@ -113,11 +113,11 @@ ul {
         text-align: left;
         font-size: 24px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: red;
-        text-shadow: -1px 0 #c72929, 0 1px #6b0707, 1px 0 #c72929, 0 -1px #c72929
+        color: #900507;
+        text-shadow: -1px 0 #771515, 0 1px #6b0707, 1px 0 #c72929, 0 -1px #c72929
     }
     .general img{
-        width: 30%;
+        width: 25%;
         height: auto;
         float: right;
         padding: auto;
@@ -128,7 +128,7 @@ ul {
         margin: 5px auto;            
     }
     .imagenes img{
-        width: 50%;
+        width: 35%;
         display: block;
         margin:5px auto;
     }
@@ -143,7 +143,7 @@ ul {
         text-align: left;
         font-size: 24px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: red;
+        color: #900507;
         text-shadow: -1px 0 #c72929, 0 1px #6b0707, 1px 0 #c72929, 0 -1px #c72929
     }
     .general1 p{
@@ -174,6 +174,11 @@ ul {
     }
     .imagenes1{
         padding:20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .area img{
+        width: 250px;
     }
     .area img:hover{
         opacity: .5;
