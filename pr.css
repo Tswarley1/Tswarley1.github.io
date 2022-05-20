@@ -1,0 +1,19 @@
+.area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.imagenes1{
+    padding:20px;
+    text-align: center;
+    font-weight: bold;
+}
+.area img{
+    width: 300px;
+}
+.area img:hover{
+    opacity: .5;
+    transition: 05s;
+}
