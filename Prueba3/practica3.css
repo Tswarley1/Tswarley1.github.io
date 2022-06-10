@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #055063;
+}
+body{
+    background-color: #e6dddd;
+}
+img{
+    margin: auto 26%;
+}
+#pregunta{
+    font-weight: 600;
+    color: black;
+    font-size: 24px;
+}
+
+button{
+    background-color: #002b63;
+    border: none;
+    color: #ffffff;
+    padding: auto 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
