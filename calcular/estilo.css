@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 60%;
+    font-family: 'Charis SIL', serif;
+    background: linear-gradient(rgb(255, 255, 255), rgba(197, 181, 181, 0.7));
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.primero{
+    background: linear-gradient(rgba(63, 63, 63, 0.7), rgba(36, 36, 36, 0.7)), url('https://www.ambitojuridico.com/sites/default/files/contador-cuentas-formularioshutterstock1.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:250px;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    width: 100%;
+    /* background-color: #000000; */
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.conteiner{
+    width: 80%;
+    height: 15%;
+    padding: auto;
+    margin: auto;
+}
+.logo{
+    width: 8%;
+    float: left;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.logo img{
+    width: 100%;
+    margin: -1px;
+}
+.menu{
+    float: right;
+    width: 60%;
+    font-weight:lighter;
+    margin: 0px;
+    padding: 0px;
+    font-size:x-large;
+    font-family: 'Archivo Black',
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    }
+
+.nav > li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+    }
+
+.nav li a {
+        color:white;
+        text-decoration:none;
+        padding:20px 30px;
+        display:block;
+    }
+    
+.nav li a:hover {
+        background-color:#000000;
+    }
+
+.nav li ul {
+        color: white;;
+        text-decoration:none;
+        padding:auto 5px;
+        display:none;
+        position:absolute;
+        min-width:140px;
+    }
+.nav li ul li{
+    font-size:large;
+    list-style: none ;
+}
+.nav li:hover > ul {
+        display:block;
+}
+
+.titulo{
+    width: 50%;
+    height: 30%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin:  0px 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size:52px;
+}
+.titulo h1{
+    text-align: center;
+    font-weight: bolder;
+    color: #ffffff;
+    padding: auto;
+    font-family: 'Archivo Black',
+}
+.contenedor{
+    display: flex;
+    /* Centra y ordena al medio */
+    align-items: center;
+    justify-content: center;
+    /* Esta unidad esta basada en el alto de vista de la ventana */
+    /* height: 150vh; */
+    padding: auto;
+    margin:30px;
+    height: auto;
+    /* border: 2px solid black; */
+}
+.calculadora{
+    display: flex;
+    /* especifica cómo colocar los objetos flexibles en el contenedor */
+    flex-direction: column;
+    width: 400px;
+    /* height: 650px; */
+    /* Depende del tamaño general */
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: #dbdbdb;
+}
+
+.resultado{
+    padding: 25px 15px;
+    width: 100%;
+    text-align: right;
+    border: 2px solid black;
+    overflow-x: auto;
+    background-color: #ffffff;
+}
+.keypad{
+    display: flex;
+    width: 100%;
+
+}
+.numeros{
+    display: flex;
+    /* Aparezca en multilineas */
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #c2c2c2;
+}
+
+.boton{
+    width: 23%;
+    padding: 28px;
+    text-align: center;
+    margin: 3px;
+    /* aparece un dedo en el mouse */
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius:100%;
+}
+.boton:hover{
+    filter: brightness(80%);
+}
+
+.largo{
+    width: 48%;
+    border-radius:20px;
+    background-color: #861e1e;
+    margin-right: 3px;
+    margin-left: 5px;
+}
+
+.color{
+    background-color: #797979;
+    margin-right: 2px;
+}
+.num{
+    background-color: #1154a0;
+    color: #ffffff;
+    margin-right: 5px;
+}
+.calculadora h1{
+    text-align: center;
+    padding: 10px 0;   
+    color:#dbdbdb;
+    font-family: 'Judson', serif;
+
+}
+
+.footer-distributed {
+    background-color: #000000;
+    box-shadow: 0 1px 1px 0 rgba(114, 106, 106, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 18px;
+    margin: 0;
+}
+  /* Footer links */
+
+.footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+}
+
+.footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+.footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 1px;
+    transition:all .25s;
+}
+
+.footer-right img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
+.footer-distributed .footer-right a:hover{
+    transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+.footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+  /* Media Queries */
+
+@media (max-width: 600px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+    text-align: center;
+    }
+    .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+    }
+}
